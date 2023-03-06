@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg6908" viewBox="0 0 500 300" version="1.1">
+  <g id="layer1" transform="translate(0 -752.36)">
+    <g id="g7551" fill="#fffef9">
+      <rect id="rect6916" y="752.36" width="500" x="0" height="300"/>
+      <path id="path7509" stroke="#f00" stroke-width="1px" d="m0 801.14h500.22"/>
+      <path id="path7511" stroke="#01f" stroke-width="1px" d="m0 826.34h500.22"/>
+      <path id="path7513" stroke="#01f" stroke-width="1px" d="m0 851.53h500.22"/>
+      <path id="path7515" stroke="#01f" stroke-width="1px" d="m0 876.73h500.22"/>
+      <path id="path7517" stroke="#01f" stroke-width="1px" d="m0 901.93h500.22"/>
+      <path id="path7519" stroke="#01f" stroke-width="1px" d="m0 927.12h500.22"/>
+      <path id="path7521" stroke="#01f" stroke-width="1px" d="m0 952.32h500.22"/>
+      <path id="path7523" stroke="#01f" stroke-width="1px" d="m0 977.51h500.22"/>
+      <path id="path7525" stroke="#01f" stroke-width="1px" d="m0 1002.7h500.22"/>
+      <path id="path7527" stroke="#01f" stroke-width="1px" d="m0 1027.9h500.22"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Tan index card</dc:title>
+        <dc:date>2010-09-18T00:22:53</dc:date>
+        <dc:description>An index card with a slight off-white background</dc:description>
+        <dc:source>http://openclipart.org/detail/85285/tan-index-card-by-snifty</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>snifty</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>index card</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>stationery</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
