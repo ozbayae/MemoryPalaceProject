@@ -1,0 +1,5 @@
+#separator:tab
+#html:false
+This is the front of the card	This is the back of the card
+Second front.	Second back.
+What is the meaning of life?	42.
