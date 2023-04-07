@@ -16,15 +16,43 @@ public class MouseLook : MonoBehaviour
     Vector2 rotation = Vector2.zero;
     const string xAxis = "Mouse X"; //Strings in direct code generate garbage, storing and re-using them creates no garbage
     const string yAxis = "Mouse Y";
+    
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     void Update(){
-        rotation.x += Input.GetAxis(xAxis) * sensitivity;
-        rotation.y += Input.GetAxis(yAxis) * sensitivity;
-        rotation.y = Mathf.Clamp(rotation.y, -yRotationLimit, yRotationLimit);
-        var xQuat = Quaternion.AngleAxis(rotation.x, Vector3.up);
-        var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
+        
+        //don't rotate if the cursor is not locked
+        if (Cursor.lockState == CursorLockMode.Locked)
+        {
+            rotation.x += Input.GetAxis(xAxis) * sensitivity;
+            rotation.y += Input.GetAxis(yAxis) * sensitivity;
+            rotation.y = Mathf.Clamp(rotation.y, -yRotationLimit, yRotationLimit);
+            var xQuat = Quaternion.AngleAxis(rotation.x, Vector3.up);
+            var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
 
-        transform.localRotation = xQuat * yQuat; //Quaternions seem to rotate more consistently than EulerAngles. Sensitivity seemed to change slightly at certain degrees using Euler. transform.localEulerAngles = new Vector3(-rotation.y, rotation.x, 0);
+            transform.localRotation = xQuat * yQuat;
+        }
+
+        //switch cursor lock when pressing escape
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //if cursor is locked, unlock it
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            } else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                //hide cursor
+                Cursor.visible = false;
+            }
+        }
+        
     }
     
     

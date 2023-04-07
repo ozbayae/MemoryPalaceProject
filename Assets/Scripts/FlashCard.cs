@@ -21,26 +21,28 @@ public class FlashCard : MonoBehaviour
 // Start is called before the first frame update
     void Start()
     {
-        SetText(_frontText, _backText);
+        SetText(_frontText);
     }
 
     private void Update()
     {
         //billboard the card
         transform.LookAt(Camera.main.transform);
-        if(_isFlipped)
-        {
-            transform.Rotate(0, 180, 0);
-        }
+        // if(_isFlipped)
+        // {
+        //     transform.Rotate(0, 180, 0);
+        // }
     }
 
-    public void SetText(string frontText, string backText)
+    public void SetText(string frontText)
     {
         _frontText = frontText;
-        _backText = backText;
-        
         _frontTextMesh.text = _frontText;
-        _backTextMesh.text = _backText;
+    }
+    
+    public void SetTextVisible(bool isVisible)
+    {
+        _frontTextMesh.enabled = isVisible;
     }
 
     void OnMouseOver()

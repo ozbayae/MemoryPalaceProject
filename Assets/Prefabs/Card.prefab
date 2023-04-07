@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8250688494772717553}
   m_Layer: 0
   m_Name: Card
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,17 +71,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6598915729862236891, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_text
-      value: 'Back side
-
-'
+      value: Back side
       objectReference: {fileID: 0}
     - target: {fileID: 6598915729862236891, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_fontSize
       value: 2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 6598915729862236891, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 6598915730585909688, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_Name
       value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598915730585909688, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6598915730585909689, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_IsTrigger
@@ -157,6 +163,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8881128001859085222}
     m_Modifications:
+    - target: {fileID: 6598915729862236889, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6598915729862236891, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_text
       value: 'Front side
@@ -167,12 +177,20 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 2.2
       objectReference: {fileID: 0}
+    - target: {fileID: 6598915729862236891, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6598915730585909688, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_Name
       value: Front
       objectReference: {fileID: 0}
     - target: {fileID: 6598915730585909689, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598915730585909690, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6598915730585909692, guid: 3b4a4520f2e283d428c5dd28366f7a37, type: 3}
